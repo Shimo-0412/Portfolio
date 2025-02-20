@@ -127,6 +127,15 @@ footer {
     text-decoration: none;
 }
 
+.project-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr); /* 2列固定 */
+    margin: 0;
+    padding: 0;
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -136,6 +145,9 @@ footer {
     }
     .menu ul li {
         margin: 10px 0;
+    }
+    .project-grid {
+        grid-template-columns: 1fr; /* スマホでは1列にする */
     }
 }
 
