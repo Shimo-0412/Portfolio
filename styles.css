@@ -73,7 +73,7 @@ section {
 }
 
 /* Grids */
-.languages-grid, .tools-grid, .project-grid {
+.languages-grid, .tools-grid {
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
